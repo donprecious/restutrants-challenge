@@ -12,13 +12,15 @@
 ### Input  
 Input JSON consist of keys indicating days of a week and corresponding opening hours as  values.  
 One JSON file includes data for one restaurant.  
-{  
-dayofweek: opening hours
-dayofweek: opening hours
+```{  
+dayofweek: [opening hours],
+dayofweek: [opening hours]
   ....
-}  
+} 
 
-<dayofweek> : monday / tuesday / wednesday / thursday / friday / saturday / sunday  <opening hours>: an array of objects containing opening hours. Each object consists  of two keys: type: open or close  
+``` 
+
+dayofweek : monday / tuesday / wednesday / thursday / friday / saturday / sunday  <opening hours>: an array of objects containing opening hours. Each object consists  of two keys: type: open or close  
 value: opening / closing time as UNIX time (1.1.1970 as a date)
 
 ### Payload example 
