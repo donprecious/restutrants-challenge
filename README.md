@@ -13,8 +13,8 @@
 Input JSON consist of keys indicating days of a week and corresponding opening hours as  values.  
 One JSON file includes data for one restaurant.  
 {  
-<dayofweek>: <opening hours>  
-<dayofweek>: <opening hours>  
+dayofweek: opening hours
+dayofweek: opening hours
   ....
 }  
 
