@@ -1,8 +1,11 @@
 
 # Read Me  
+
  This project contains two task  
 - Task 1. 
     A program that takes JSON-formatted opening hours of a restaurant as  an input and outputs hours in more human readable format 
+    Test Api on Swagger UI  https://globalaccelerex-task-precious.herokuapp.com/swagger/index.html 
+    
 - Task 2 
     Inverse Permutation
 
